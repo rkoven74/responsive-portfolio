@@ -219,27 +219,88 @@ input[type=submit] {
     padding: 20px;
     color: white;
 }
-
-
-
-
-
-
-
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
+}
+ul {
+  list-style-type: none;
+  padding:0;
+}
+li {
+  display:inline-block;
+}
+nav {
+  float:none;
+}
+.nav-holder {
+ display:flex;
+ width:100%;
+ justify-content: center;
+}
+.mobile-image-fix {
+ display: flex;
+ justify-content: center;
+}
+.page-header {
+ text-align: center;
+ 
+}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 } 
+ul {
+  list-style-type: none;
+  padding:0;
+}
+li {
+  display:inline-block;
+}
+nav {
+  float:none;
+}
+.nav-holder {
+ display:flex;
+ width:100%;
+ justify-content: center;
+}
+.mobile-image-fix {
+ display: flex;
+ justify-content: center;
+}
+.page-header {
+ text-align: center;
+}
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  ul {
+    list-style-type: none;
+    padding:0;
+  }
+  li {
+    display:inline-block;
+  }
+  nav {
+    float:none;
+  }
+  .nav-holder {
+   display:flex;
+   width:100%;
+   justify-content: center;
+ }
+ .mobile-image-fix {
+   display: flex;
+   justify-content: center;
+ }
+ .page-header {
+   text-align: center;
+ }
  
-} 
-
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
